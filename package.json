@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-openapi-image",
+  "version": "1.0.0",
+  "description": "Generate images using OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
